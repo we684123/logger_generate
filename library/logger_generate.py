@@ -27,7 +27,10 @@ def generate(logger_config, name='', need_serial=False, **kwargs):
         need_serial = kwargs['need_serial']
 
     if not Path(logger_config['log_file_path']).exists():
-        Path(logger_config['log_file_path']).parents[0].mkdir()
+        try:
+            Path(logger_config['log_file_path']).parents[0].mkdir()
+        except Exception as e:
+            e  # 應付 pep8
 
     if name == '':
         name = __name__
