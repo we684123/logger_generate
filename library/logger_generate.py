@@ -30,7 +30,7 @@ def generate(logger_config, name='', need_serial=False, **kwargs):
         try:
             Path(logger_config['log_file_path']).parents[0].mkdir()
         except Exception as e:
-            e  # 應付 pep8
+            print(e)
 
     if name == '':
         name = __name__
@@ -38,7 +38,7 @@ def generate(logger_config, name='', need_serial=False, **kwargs):
         rdt_len = 5
         rdt = ''.join(random.choice(string.ascii_letters + string.digits)
                       for x in range(rdt_len))
-        logger = logging.getLogger(name + '_' + rdt)
+        logger = logging.getLogger(f"{name}_{rdt}")
     else:
         logger = logging.getLogger(name)
     handler1 = logging.StreamHandler(sys.stdout)
