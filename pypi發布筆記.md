@@ -1,3 +1,8 @@
+# 打包環境
+```bash
+python -m pip install --user --upgrade twine setuptools
+```
+
 # 打包指令
 可以看看要不要生 pyproject.toml 出來，pep517 會看  
 
