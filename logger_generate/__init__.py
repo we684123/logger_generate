@@ -1,1 +1,1 @@
-from .library import logger_generate
+from logger_generate.logger_generate import generate
