@@ -1,4 +1,5 @@
 # 打包指令
+可以看看要不要生 pyproject.toml 出來，pep517 會看  
 
 標準：
 ```bash
@@ -39,3 +40,8 @@ twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 ```
 long_description_content_type='text/markdown',
 ```
+
+# 如果裝的時候死了
+
+嘗試重裝 python 可能有用  
+https://www.youtube.com/watch?v=n76DOy-jbl4  
