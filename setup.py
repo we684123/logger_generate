@@ -5,7 +5,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
 
 setup(
     name="logger_generate",
-    version="0.1.0",
+    version="0.1.3",
     keywords=("logger", "logging", "generate"),
     description="開箱即用的logger。 easy to generate logger.",
     long_description=long_description,
