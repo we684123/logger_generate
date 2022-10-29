@@ -10,9 +10,16 @@ easy to generate logger.
 
 ## Install
 
+pip
 ```bash
 pip install -U logger-generate
 ```
+
+poetry
+```bash
+poetry add logger-generate
+```
+
 
 ## Example
 
