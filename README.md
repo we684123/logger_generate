@@ -11,15 +11,16 @@ easy to generate logger.
 ## Install
 
 pip
+
 ```bash
 pip install -U logger-generate
 ```
 
 poetry
+
 ```bash
 poetry add logger-generate
 ```
-
 
 ## Example
 
@@ -49,7 +50,11 @@ logger.info("←後方隨機5字元")
 
 logger = generate(base.logger_config(), "ex", True)
 logger.info("示範單純用位置作為輸入手段")
+
+logger = generate(logging_level='DEBUG',
+                  name='use_kwargs',
+                  log_file_path='./logs/use_kwargs.log')
+logger.info("現在也可以用 kwargs 設定 logger")
 ```
 
 ![2022-10-29 22_38_04-logger_generate @ z170_hero](https://user-images.githubusercontent.com/22027801/198837773-27f1a516-c99a-4518-86e9-42ff9c4faab0.png)
-
