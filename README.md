@@ -10,16 +10,22 @@ easy to generate logger.
 
 ## Install
 
-pip
+PIP
 
 ```bash
 pip install -U logger-generate
 ```
 
-poetry
+Poetry
 
 ```bash
 poetry add logger-generate
+```
+
+PIP from Github
+
+```bash
+pip install git+https://github.com/we684123/logger_generate@main
 ```
 
 ## Example
