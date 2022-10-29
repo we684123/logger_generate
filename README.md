@@ -51,4 +51,5 @@ logger = generate(base.logger_config(), "ex", True)
 logger.info("示範單純用位置作為輸入手段")
 ```
 
-![2022-10-02 23_32_45-README md — C__Users_we684123_Dropbox_各類專案_Github_logger_generate — Atom](https://user-images.githubusercontent.com/22027801/193462753-a5456909-28d5-449e-b8dc-5e1648ab87d0.png)
+![2022-10-29 22_38_04-logger_generate @ z170_hero](https://user-images.githubusercontent.com/22027801/198837773-27f1a516-c99a-4518-86e9-42ff9c4faab0.png)
+
