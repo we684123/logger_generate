@@ -1,15 +1,23 @@
 [tool.poetry]
 name = "logger_generate"
-version = "0.1.0"
-description = ""
+version = "0.1.1"
+description = "開箱即用的logger。 easy to generate logger."
 authors = ["we684123 <we684123@gmail.com>"]
 license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/we684123/logger_generate"
+repository = "https://github.com/we684123/logger_generate"
+documentation = "https://github.com/we684123/logger_generate"
+keywords = ["logger", "logging", "generate"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 coloredlogs = "^15.0.1"
 
 [tool.poetry.dev-dependencies]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/we684123/logger_generate/issues"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

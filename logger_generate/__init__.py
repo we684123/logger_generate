@@ -1,0 +1,1 @@
+from logger_generate.logger_generate import generate
