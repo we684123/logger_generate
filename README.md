@@ -1,9 +1,19 @@
 # logger_generate
 生成logger用的，清涼舒爽
+開箱即用的logger。
 
+a python package
+easy to generate logger.
+
+## pip install
+```bash
+pip install -U logger-generate
+```
+
+## example
 ```python
 from config import base
-from library.logger_generate import generate
+from logger_generate import generate
 
 logger = generate()
 logger.info("引入即用 ( •̀ ω •́ )✧")
