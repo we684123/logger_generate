@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "logger_generate"
-version = "0.1.1"
+version = "0.2.0"
 description = "開箱即用的logger。 easy to generate logger."
 authors = ["we684123 <we684123@gmail.com>"]
 license = "MIT"
