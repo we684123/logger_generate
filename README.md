@@ -1,16 +1,21 @@
 # logger_generate
-生成logger用的，清涼舒爽
-開箱即用的logger。
 
-a python package
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/26699f09d35542bcb96c9d0164e27a1e)](https://www.codacy.com/gh/we684123/logger_generate/dashboard?utm_source=github.com&utm_medium=referral&utm_content=we684123/logger_generate&utm_campaign=Badge_Grade)
+
+生成 logger 用的，清涼舒爽  
+開箱即用的 logger。
+
+A python package  
 easy to generate logger.
 
-## pip install
+## Install
+
 ```bash
 pip install -U logger-generate
 ```
 
-## example
+## Example
+
 ```python
 from config import base
 from logger_generate import generate
@@ -38,4 +43,5 @@ logger.info("←後方隨機5字元")
 logger = generate(base.logger_config(), "ex", True)
 logger.info("示範單純用位置作為輸入手段")
 ```
+
 ![2022-10-02 23_32_45-README md — C__Users_we684123_Dropbox_各類專案_Github_logger_generate — Atom](https://user-images.githubusercontent.com/22027801/193462753-a5456909-28d5-449e-b8dc-5e1648ab87d0.png)
