@@ -1,5 +1,5 @@
 from config import base
-from logger_generate import generate
+from logger_generate.logger_generate import generate
 
 logger = generate()
 logger.info("引入即用 ( •̀ ω •́ )✧")
